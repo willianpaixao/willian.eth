@@ -1,0 +1,16 @@
+baseURL: '/'
+languageCode: 'en-us'
+relativeUrls: true
+theme: "PaperMod"
+title: 'willian.eth'
+params:
+  profileMode:
+    enabled: true
+    imageUrl: "https://avatars.githubusercontent.com/u/201236"
+  socialIcons:
+  - name: "Twitter"
+    url: "https://twitter.com/willianpaixaoo"
+  - name: "Github"
+    url: "https://github.com/willianpaixao"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/willianpaixao/"
