@@ -1,0 +1,28 @@
+languageCode = 'en-us'
+title = 'willian.eth'
+relativeURLs = true
+theme = ["PaperMod"]
+
+[deployment]
+[deployment.targets]
+name = 'production'
+
+[module]
+[module.imports]
+path = 'github.com/adityatelange/hugo-PaperMod'
+
+[params]
+env = "production"
+[params.profileMode]
+enabled = true
+subtitle = "Computer Engineer"
+imageUrl = "profile.jpg"
+imageWidth = 120
+imageHeight = 120
+Title = "Willian Paixao"
+[[params.socialIcons]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/willianpaixao/"
+[[params.socialIcons]]
+name = "GitHub"
+url = "https://github.com/willianpaixao"
