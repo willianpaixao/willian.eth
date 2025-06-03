@@ -34,7 +34,7 @@ jobs:
       pages: write
       id-token: write
     env:
-      HUGO_VERSION: 0.145.0
+      HUGO_VERSION: 0.147.7
     steps:
       - name: Install Hugo CLI
         run: |

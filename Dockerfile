@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.source="https://github.com/willianpaixao/willian.
 LABEL org.opencontainers.image.title="willian.eth"
 
 # Copy the public directory (pre-built static files)
-COPY public/ /usr/share/nginx/html/
+COPY /public/ /usr/share/nginx/html/
 
 # Expose port 80/tcp
 EXPOSE 80/tcp
